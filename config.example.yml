@@ -1,0 +1,6 @@
+# Merge into ~/.omp/agent/config.yml (add under an existing modelRoles: key if you have one).
+# Suffix after ":" is the effort level.
+modelRoles:
+  planner: anthropic/claude-opus-5-5:high
+  coder: openai-codex/gpt-6.1-sol:xhigh
+  designer: google-antigravity/gemini-3.1-pro:high
